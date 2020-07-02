@@ -99,12 +99,11 @@
                     android:textSize="20sp"
                     android:textStyle="bold"/>
                 <TextView
-                    android:id="@+id/position"
+                    android:id="@+id/leaderboard_position"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/leaderboard_label"
                     android:layout_centerHorizontal="true"
-                    android:text="1000"
                     android:textSize="18sp"/>
 
             </RelativeLayout>

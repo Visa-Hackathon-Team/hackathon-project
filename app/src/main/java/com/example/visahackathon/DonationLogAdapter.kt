@@ -30,7 +30,11 @@ class DonationLogAdapter(private val context: Context,
 
         val donationEntry = getItem(position) as DonationLogEntry
 
-        businessName.text = "Donated ${donationEntry.amount} to ${donationEntry.entry}"
+        businessName.text = "Donated $${donationEntry.amount} to ${donationEntry.entry}"
+
+        if(!donationEntry.amount.toString().contains(".")) {
+            businessName.text = "Donated $${donationEntry.amount}.00 to ${donationEntry.entry}"
+        }
 
         return rowView
     }
