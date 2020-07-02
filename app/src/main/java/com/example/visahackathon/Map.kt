@@ -58,9 +58,92 @@ class Map : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+
+
+        val cupprimo = LatLng(30.4329, -97.7712912)
+        mMap.addMarker(MarkerOptions().position(cupprimo).title("Cupprimo"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(cupprimo))
+
+        val oneTaco = LatLng(30.425263, -97.7540876)
+        mMap.addMarker(MarkerOptions().position(oneTaco).title("OneTaco - Taqueria"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(oneTaco))
+
+        val pinup = LatLng(30.430631, -97.7643752)
+        mMap.addMarker(MarkerOptions().position(pinup).title("Pinup Salon"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(pinup))
+
+        val touchStone = LatLng(30.4158443, -97.7477604)
+        mMap.addMarker(MarkerOptions().position(touchStone).title("Touchstone Medical Imaging"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(touchStone))
+
+        val afViolet = LatLng(30.4268802, -97.7601245)
+        mMap.addMarker(MarkerOptions().position(afViolet).title("African Violet Personal Chef"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(afViolet))
+
+        val salsa = LatLng(30.426405, -97.7593068)
+        mMap.addMarker(MarkerOptions().position(salsa).title("Salsa Austin"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(salsa))
+
+        val berk = LatLng(30.4360885, -97.7719983)
+        mMap.addMarker(MarkerOptions().position(berk).title("Berkeley2 Academy"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(berk))
+
+        val russian = LatLng(30.4364056, -97.7722414)
+        mMap.addMarker(MarkerOptions().position(russian).title("Russian Overtones"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(russian))
+
+        val catfish =  LatLng(30.4242789,-97.7507321 )
+        mMap.addMarker(MarkerOptions().position(catfish).title("Catfish Parlour"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(catfish))
+
+        val greatHill =  LatLng(30.4168043, -97.7480811)
+        mMap.addMarker(MarkerOptions().position(greatHill).title("Great Hills Automotive"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(greatHill))
+
+        val shredding = LatLng(32.78337,-96.79722 )
+        mMap.addMarker(MarkerOptions().position(shredding).title("Smarter Shredding"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(shredding))
+
+        val empanada = LatLng(32.7826,-96.80495 )
+        mMap.addMarker(MarkerOptions().position(empanada).title("The Empanada Cookhouse"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(empanada))
+
+        val india = LatLng(32.77757, -96.79045)
+        mMap.addMarker(MarkerOptions().position(india).title("8 Cloves - Spice of India"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(india))
+
+        val abunAro = LatLng(32.777569, -96.790451)
+        mMap.addMarker(MarkerOptions().position(abunAro).title("Abundantly Aromatic"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(abunAro))
+
+        val goodCoffee = LatLng(32.78261,-96.7954 )
+        mMap.addMarker(MarkerOptions().position(goodCoffee).title("Stupid Good Coffee"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(goodCoffee))
+
+        val alphagraphics = LatLng(32.7826,-96.80495 )
+        mMap.addMarker(MarkerOptions().position(alphagraphics).title("Alphagraphics"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(alphagraphics))
+
+        val glutenFree = LatLng(32.7826, -96.80495)
+        mMap.addMarker(MarkerOptions().position(glutenFree).title("Hannah's Gluten Free Bakery"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(glutenFree))
+
+        val cafeMom = LatLng(32.782263, -96.799508)
+        mMap.addMarker(MarkerOptions().position(cafeMom).title("Cafe Momentum"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(cafeMom))
+
+        val limon = LatLng(32.783467, -96.800608)
+        mMap.addMarker(MarkerOptions().position(limon).title("Salsa Limón : Flor De Mayo"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(limon))
+
+        val hawaii = LatLng(32.770487,-96.823192 )
+        mMap.addMarker(MarkerOptions().position(hawaii).title("Hawaiian Tropical Plant Sales"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(hawaii))
+
+
+
+
+
     }
 
 
